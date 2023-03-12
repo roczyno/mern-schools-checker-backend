@@ -5,7 +5,7 @@ const UewSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  cutOffPoints: {
+  cutOffPoint: {
     type: Number,
     required: true,
   },
