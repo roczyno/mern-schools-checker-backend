@@ -3,7 +3,7 @@ import Uew from "../models/uew.models.js";
 export const getAll = async (req, res) => {
   try {
     const uew = await Uew.find();
-    res.status(200).json(Uew);
+    res.status(200).json(uew);
   } catch (error) {
     res.status(500).json(error);
   }
